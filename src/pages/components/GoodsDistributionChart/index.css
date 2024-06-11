@@ -1,0 +1,10 @@
+.goodContent{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.chartWrap{
+  width: 474px;
+  height: 100%;
+}

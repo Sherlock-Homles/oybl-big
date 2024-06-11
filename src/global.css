@@ -1,0 +1,71 @@
+@import '~antd/dist/antd.css';
+html,
+body,
+#root {
+  height: 1080px;
+  width: 3840px;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.leftTop {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: -2px;
+  left: -2px;
+  border-style: solid;
+  border-color: #00b9fd;
+  border-left-width: 3px;
+  border-top-width: 3px;
+  border-right: none;
+  border-bottom: none;
+}
+.rightTop {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: -2px;
+  right: -2px;
+  border-style: solid;
+  border-color: #00b9fd;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom: none;
+  border-left: none;
+}
+.leftBottom {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  bottom: -2px;
+  left: -2px;
+  border-style: solid;
+  border-color: #00b9fd;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-top: none;
+  border-right: none;
+}
+.rightBottom {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  bottom: -2px;
+  right: -2px;
+  border-style: solid;
+  border-color: #00b9fd;
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+  border-top: none;
+  border-left: none;
+}

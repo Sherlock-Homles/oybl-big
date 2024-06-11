@@ -1,0 +1,235 @@
+.vasWrap {
+  width: 100%;
+  height: 320px;
+  border: 1px solid #0063a2;
+  position: relative;
+}
+
+.vasWrap .title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  height: 55px;
+  line-height: 40px;
+  color: #00b9fd;
+}
+
+.vasWrap .content {
+  height: calc(100% - 55px);
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vasWrap .content .item {
+  /* width: 290px; */
+  width: 447px;
+  height: 115px;
+  padding: 0 10px;
+  margin: 0 12px;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1c3e75;
+}
+
+/* .vasWrap .content .item:nth-child(1) {
+  width: 447px;
+}
+
+.vasWrap .content .item:nth-child(2) {
+  width: 448px;
+} */
+
+.vasWrap .content .item .icon {
+  width: 60px;
+  height: 60px;
+}
+
+.vasWrap .content .item .icon .img {
+  width: 60px;
+  height: 60px;
+}
+
+.vasWrap .content .item .text .number {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.vasWrap .content .item .text .type {
+  color: white;
+  font-size: 14px;
+}
+
+.vasWrap .vasDetailWrap {
+  position: absolute;
+  left: -2850px;
+  top: -540px;
+  height: 1080px;
+  width: 3840px;
+  z-index: 100
+}
+
+.vasWrap .vasDetailWrap .detailBg {
+  width: 100%;
+  height: 100%;
+  background: url('../../../assets/newsdetialbg.png') no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 5px;
+}
+
+.vasWrap .vasDetailWrap .detailBg .left {
+  width: 1029px;
+  height: 100%;
+}
+
+.vasWrap .vasDetailWrap .detailBg .right {
+  width: 1029px;
+  height: 100%;
+}
+
+.vasWrap .vasDetailWrap .detailBg .contentImg {
+  position: absolute;
+  top: 70px;
+  left: 1016px;
+  /*background-color: #122D61;*/
+  width: 1800px;
+  height: 940px;
+  background: url("../../../assets/newscontent.jpg") no-repeat;
+}
+
+.vasWrap .vasDetailWrap .detailBg .contentImg .img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail {
+  width: 1781px;
+  height: 876px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 75px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: #00B8FF;
+  position: relative;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasTitle img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasContentWrap {
+  margin-top: 14px;
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasContentWrap .imgWrap {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasContentWrap .imgWrap .detailImg {
+  width:660px
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasContentWrap .button {
+  width:100px;
+  height:40px;
+  border:1px solid #00B8FF;
+  color:#00B8FF;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor:pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasContentWrap .imgWrap .return {
+  height:40px;
+  color:#00B8FF;
+  font-size: 24px;
+  margin-left: 100px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasContentWrap .vasContent {
+  font-size: 22px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 42px;
+  text-indent: 3rem;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasContentWrap .vasContent li img {
+  width: 850px;
+  height: 550px;
+  display: block;
+  margin: 0 auto;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasContentWrap .vasContent li iframe {
+  margin: 0 auto;
+  display: block;
+  width: 1200px;
+  height: 570px;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasContentWrap .vasContent li h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #00B8FF;
+}
+
+.vasWrap .vasDetailWrap .detailBg .vasDetail .vasContentWrap .vasContent li h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.bg1 {
+  background: url('../../../assets/vas/bg1.png') no-repeat;
+}
+
+.bg2 {
+  background: url('../../../assets/vas/bg2.png') no-repeat;
+}
+
+.bg3 {
+  background: url('../../../assets/vas/bg3.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.bg4 {
+  background: url('../../../assets/vas/bg4.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.bg5 {
+  background: url('../../../assets/vas/bg5.png') no-repeat;
+}

@@ -1,0 +1,36 @@
+.info {
+  width: 1180px;
+  height: 100px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: rgba(17, 37, 79, 0.8);
+}
+
+.info .title {
+  color: #00a1fe;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.info .line {
+  line-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+.info .line .item {
+  min-width: 230px;
+  color: #ffffff;
+}
+
+.info .line .item .label {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.info .line .item .value {
+  color: #00a1fe;
+}

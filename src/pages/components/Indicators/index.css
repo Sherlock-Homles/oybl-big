@@ -1,0 +1,62 @@
+.indicatorsWrap {
+  width: 1650px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.indicatorsLeft {
+  width: 250px;
+  height: 76px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  color: #B4E7FF;
+  font-size: 28px;
+  padding-right: 15px;
+  background: url('../../../assets/indicator-L.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.indicatorsRight {
+  width: 250px;
+  height: 76px;
+  background: url('../../../assets/indicator-R.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.indicators {
+  display: flex;
+  width: 2000px;
+  height: 76px;
+  align-items: center;
+  justify-content: center;
+  background: url('../../../assets/indicator.png') no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 5px;
+}
+
+.indicator {
+  border-right: 1px solid #00b9fd;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.indicator .label {
+  color: #00b9fd;
+  font-size: 16px;
+}
+
+.indicator .value {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.indicator:last-child {
+  border-right: none;
+}

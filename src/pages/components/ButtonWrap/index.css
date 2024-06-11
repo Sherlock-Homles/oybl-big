@@ -1,0 +1,51 @@
+.wrap{
+  display: flex;
+  z-index: 100;
+}
+.button{
+  height: 32px;
+  line-height: 32px;
+  padding:0px 10px;
+  font-size: 20px;
+  background: rgba(0, 102, 255, 0);
+  border: 1px solid #0063a2;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  
+}
+
+.angle{
+  width:8px;
+  height:8px;
+  border: 2px solid #00C6FF;
+  position: absolute;
+}
+.topLeft{
+  top: -2px;
+  left:-2px;
+  border-right: none;
+  border-bottom: none;
+}
+.topRight{
+  top:-2px;
+  right:-2px;
+  border-left: none;
+  border-bottom: none;
+}
+.bottomLeft{
+  bottom:-2px;
+  left:-2px;
+  border-top: none;
+  border-right:none
+}
+.bottomRight{
+  bottom:-2px;
+  right:-2px;
+  border-top:none;
+  border-left: none;
+}

@@ -1,0 +1,25 @@
+.container {
+  height: 100%;
+  position: relative;
+  border: 1px solid  #318EFF;
+}
+.container .title {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  padding-left: 10px;
+  background-color: rgba(18, 70, 137, 0.6);
+}
+.container .title .titleLeft{
+  display: flex;
+}
+.container .title .text {
+  color: #00bfff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.container .chart {
+  height: calc(100% - 55px);
+}

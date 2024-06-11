@@ -1,0 +1,10 @@
+.wrap {
+  border: 1px solid #0063a2;
+  position: relative;
+  margin-right: 20px;
+}
+.transport {
+  width: 470px;
+  height: 320px;
+  position: relative;
+}

@@ -1,0 +1,26 @@
+.plan {
+  margin-top: 15px;
+  border: 1px solid #0063a2;
+  padding: 0 65px;
+  position: relative;
+}
+.plan .title {
+  color: #00b9fd;
+  text-align: center;
+  font-size: 20px;
+  line-height: 36px;
+}
+.plan .box {
+  margin-top: 10px;
+  height: 110px;
+  overflow: hidden;
+}
+.plan .planItem {
+  display: flex;
+  line-height: 38px;
+  align-items: center;
+}
+.plan .planItem .content {
+  margin-left: 10px;
+  color: #ffffff;
+}
